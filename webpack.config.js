@@ -3,7 +3,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 module.exports = {
     mode: 'development',
     entry: {
-        'main': './src/index.js',
+        'main_v2': './src/mainV2.js',
         'merge': './src/merge.js',
     },
     output: {
